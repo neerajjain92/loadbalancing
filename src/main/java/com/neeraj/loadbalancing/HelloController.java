@@ -22,7 +22,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String welcome() throws InterruptedException {
         log.info("HelloController Invoked @port --> {}", serverPort);
-        Thread.sleep(50);
+        Thread.sleep(500);
         return "Hello World from LoadBalancing Application @port --> " + serverPort;
     }
 }
