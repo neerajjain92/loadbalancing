@@ -1,0 +1,13 @@
+welcome:
+    message: HelloController Invoked in LoadBalancing Application (Environment --> DEV)
+server:
+  port: 8081
+  tomcat:
+    max-threads: 1
+    accept-count: 500
+
+spring:
+  devtools:
+    restart:
+      additional-paths:
+        - /monitoring

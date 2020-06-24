@@ -1,0 +1,2 @@
+Change in this file will get automatically picked up by SpringBoot DevTools
+since this folder is being watched.
